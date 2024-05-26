@@ -1,0 +1,9 @@
+{
+    "name": "vscode_angular",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "vscode_angular",
+    "extensions": [
+        "Angular.ng-template"
+    ],
+    "workspaceFolder": "/app"
+}
