@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
-import { Housinglocation } from '../housinglocation';
+import { HousingLocation } from '../housinglocation';
 import { HousingService } from '../housing.service';
 
 @Component({
@@ -26,7 +26,7 @@ import { HousingService } from '../housing.service';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  housingLocationList: Housinglocation[];
+  housingLocationList: HousingLocation[];
   housingService: HousingService = inject(HousingService);
 
   constructor() {
